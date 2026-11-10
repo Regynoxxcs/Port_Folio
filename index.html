@@ -261,15 +261,15 @@
 
             <div class="space-y-4">
               <div class="grid grid-cols-2 gap-2 text-xs font-mono text-paper/60 border-t border-paper/10 pt-4">
-                <div>// PLATFORM: STM32F4</div>
-                <div>// BUS: CAN 2.0B / SPI</div>
-                <div>// MEMORY: Bare-Metal no_std</div>
-                <div>// LATENCY: &lt; 250 µs</div>
+                <div>// Image Identification</div>
+                <div>// Image Labelling</div>
+                <div>// Quality Assurance Check</div>
+                <div>// Task Submission</div>
               </div>
 
               <div class="flex items-center gap-3 pt-2">
-                <a href="#" class="bg-paper text-charcoal hover:bg-canvas px-5 py-2.5 text-xs font-bold uppercase tracking-wider transition-all">
-                  Source Code
+                <a href="https://drive.google.com/drive/folders/140B4IVww6KB-IPIIyGljVoxNw5AlfktI?usp=drive_link" class="bg-pink-600 text-charcoal hover:bg-green-500 px-5 py-2.5 text-xs font-bold uppercase tracking-wider transition-all">
+                  Source Files
                 </a>
                 <a href="#" class="border border-paper/30 hover:border-paper text-paper px-5 py-2.5 text-xs font-bold uppercase tracking-wider transition-all">
                   Technical Spec
@@ -284,29 +284,29 @@
           <div class="lg:col-span-5 flex flex-col justify-between space-y-6 order-2 lg:order-1">
             <div>
               <div class="flex items-center gap-2 mb-2">
-                <span class="px-2.5 py-0.5 bg-accentCyan/20 text-accentCyan font-mono text-xs font-bold rounded">DISTRIBUTED BACKEND</span>
-                <span class="px-2.5 py-0.5 bg-paper/10 text-paper/80 font-mono text-xs rounded">TOKIO / ASYNC</span>
+                <span class="px-2.5 py-0.5 bg-accentCyan/20 text-accentCyan font-mono text-xs font-bold rounded">Digital Divide Data (Kenya) </span>
+                <span class="px-2.5 py-0.5 bg-paper/10 text-paper/80 font-mono text-xs rounded">Annotation / Review</span>
               </div>
-              <h3 class="text-3xl font-extrabold tracking-tight text-paper">DDD Distributed Engine</h3>
+              <h3 class="text-3xl font-extrabold tracking-tight text-paper">DDD Data Annotation Review</h3>
               <p class="text-paper/70 text-sm leading-relaxed mt-3">
-                Domain-Driven Design (DDD) Rust microservices suite featuring event-sourcing with CQRS pattern. Processes asynchronous streams at 100,000+ events per second with persistent log guarantees.
+                Domain Driven Data Annotation & QA Infrastructure. Engineered rigorous frame-by-frame spatial and temporal alignment rubrics for autonomous systems. Built automated verification workflows that reduced annotation error margins and optimized cross-team delivery pipelines.
               </p>
             </div>
 
             <div class="space-y-4">
               <div class="grid grid-cols-2 gap-2 text-xs font-mono text-paper/60 border-t border-paper/10 pt-4">
-                <div>// RUNTIME: Tokio Async</div>
-                <div>// PROTOCOL: gRPC / NATS</div>
-                <div>// PERSISTENCE: PostgreSQL</div>
-                <div>// THROUGHPUT: 100k+ req/s</div>
+                <div>// 2D image Annotation</div>
+                <div>// 3D Annotation</div>
+                <div>// LiDar Annotation</div>
+                <div>// QA and Review</div>
               </div>
 
               <div class="flex items-center gap-3 pt-2">
-                <a href="#" class="bg-paper text-charcoal hover:bg-canvas px-5 py-2.5 text-xs font-bold uppercase tracking-wider transition-all">
-                  GitHub Repo
+                <a href="https://drive.google.com/drive/folders/140B4IVww6KB-IPIIyGljVoxNw5AlfktI?usp=drive_link" class="bg-pink-600 text-charcoal hover:bg-green-500 px-5 py-2.5 text-xs font-bold uppercase tracking-wider transition-all">
+                  View Video
                 </a>
                 <a href="#" class="border border-paper/30 hover:border-paper text-paper px-5 py-2.5 text-xs font-bold uppercase tracking-wider transition-all">
-                  Architecture Diagram
+                  QA & Review Spec
                 </a>
               </div>
             </div>
@@ -317,16 +317,13 @@
             <div class="relative aspect-video bg-charcoal rounded-sm overflow-hidden border border-paper/10 group">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10"></div>
               <div class="absolute inset-0 flex items-center justify-center">
-                <div class="text-center p-6 z-20">
-                  <div class="w-16 h-16 bg-accentCyan/90 hover:bg-accentCyan text-charcoal rounded-full flex items-center justify-center mx-auto mb-3 cursor-pointer transition-transform hover:scale-105 shadow-lg">
-                    <svg class="w-8 h-8 fill-current ml-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                  </div>
-                  <span class="text-xs font-mono uppercase tracking-widest text-paper/80 bg-black/60 px-3 py-1 rounded">Watch Load Test & Execution Walkthrough</span>
-                </div>
               </div>
               <div class="absolute top-4 left-4 z-20 flex items-center gap-2">
                 <span class="w-2.5 h-2.5 bg-accentCyan rounded-full animate-ping"></span>
-                <span class="text-xs font-mono uppercase text-paper/90 font-bold bg-black/40 px-2 py-0.5">DDD Service Pipeline</span>
+                <video class="w-full h-full object-cover" controls>
+                  <source src="./IMAGES/GULP.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
           </div>
@@ -348,7 +345,10 @@
               </div>
               <div class="absolute top-4 left-4 z-20 flex items-center gap-2">
                 <span class="w-2.5 h-2.5 bg-green-500 rounded-full animate-ping"></span>
-                <span class="text-xs font-mono uppercase text-paper/90 font-bold bg-black/40 px-2 py-0.5">CVAT Integration Tool</span>
+                 <video class="w-full h-full object-cover" controls>
+                  <source src="./IMAGES/cvat.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
           </div>
@@ -367,10 +367,10 @@
 
             <div class="space-y-4">
               <div class="grid grid-cols-2 gap-2 text-xs font-mono text-paper/60 border-t border-paper/10 pt-4">
-                <div>// BINDINGS: OpenCV / C-FFI</div>
-                <div>// FORMAT: COCO / YOLO Export</div>
-                <div>// SPEEDup: 4.5x Labeling</div>
-                <div>// DEPLOYMENT: Docker / Edge</div>
+                <div>// Polylines</div>
+                <div>// Bounding Box</div>
+                <div>// Skeletons</div>
+                <div>// Points & KeyPoints</div>
               </div>
 
               <div class="flex items-center gap-3 pt-2">
